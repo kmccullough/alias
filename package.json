@@ -1,0 +1,23 @@
+{
+  "name": "@kmccullough/alias",
+  "version": "1.0.0",
+  "description": "Gives actualized value from alias or returns given alias",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmccullough/alias"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "keywords": [
+    "utility",
+    "alias",
+    "string map"
+  ],
+  "author": "Kerry McCullough <subone@subone.org> http://subone.org/",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
