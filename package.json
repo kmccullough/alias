@@ -1,12 +1,16 @@
 {
   "name": "@kmccullough/alias",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gives actualized value from alias or returns given alias",
   "repository": {
     "type": "git",
     "url": "https://github.com/kmccullough/alias"
   },
   "main": "index.js",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.js"
+  },
   "scripts": {
     "test": "mocha index.test.js"
   },
